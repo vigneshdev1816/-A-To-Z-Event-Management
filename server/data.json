@@ -1,0 +1,15 @@
+{
+  "enquiries": [
+    {
+      "id": "1777028003606",
+      "name": "Vignesh C",
+      "phone": "09655058949",
+      "email": "cvvignesh223@gmail.com",
+      "eventType": "Corporate Event",
+      "eventDate": "2026-06-09",
+      "message": "good",
+      "createdAt": "2026-04-24T10:53:23.606Z"
+    }
+  ],
+  "events": []
+}
