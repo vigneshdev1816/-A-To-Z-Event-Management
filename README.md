@@ -1,16 +1,16 @@
-# Anbu Events - Premium Event Management Website
+# A to Z - Anbu Events - Premium Event Management Website
 
 A modern, high-converting Event Management website built with React, Tailwind CSS, and Express.js.
 
 ## Features
 
 - **Hero Section** - Image slider with elegant animations
-- **Services** - Wedding, Corporate, Birthday, Private events
+- **Services** - 8 complete event solutions
 - **Portfolio** - Gallery with category filters and lightbox
-- **Packages** - Basic, Standard, Premium pricing tiers
-- **Process** - 4-step timeline (Consultation → Planning → Execution → Delivery)
+- **Packages** - Starter, Standard, Premium pricing tiers (INR)
+- **Process** - 4-step timeline
 - **Testimonials** - Auto-playing carousel with client reviews
-- **Contact Form** - Validation, API submission
+- **Contact Form** - Validation, WhatsApp integration
 - **Floating Buttons** - WhatsApp and Call now buttons
 
 ## Tech Stack
@@ -35,21 +35,26 @@ npm run start
 npm run build
 ```
 
+## Booking System
+
+All "Book Now" buttons open WhatsApp with pre-filled message:
+- Phone: +91 9655058949
+- Email: vexorix.tech@gmail.com
+- Address: 2/544 Anna Nagar, Chennai - 600002
+
 ## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | /api/enquiry | Submit new enquiry |
 | GET | /api/enquiries | Get all enquiries (admin) |
-| POST | /api/events | Add portfolio event (admin) |
+| POST | /api/events | Add portfolio event |
 | GET | /api/events | Get all portfolio events |
-| DELETE | /api/events/:id | Delete event (admin) |
 
 ## Design
 
 - **Colors**: Dark Purple (#2D1B4E), Gold (#D4AF37), White
 - **Fonts**: Playfair Display (headings), Inter (body)
-- **Animations**: Smooth scroll, hover effects, parallax
 
 ## License
 
